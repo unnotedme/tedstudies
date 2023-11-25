@@ -1,0 +1,8 @@
+{
+  "label": "Data",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Data refers to raw and unprocessed information, often in the form of numbers, text, or multimedia, that holds significance or meaning. It serves as the foundation for analysis, decision-making, and knowledge generation. Data can be structured, organized in databases with a predefined format, or unstructured, presenting a more fluid and flexible composition. The process of transforming data into insights involves various operations, including collection, storage, retrieval, and interpretation. Effective data management is essential for extracting valuable insights and driving informed actions across diverse fields, from business and science to technology and beyond."
+  }
+}
