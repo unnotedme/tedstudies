@@ -58,7 +58,7 @@ SELECT column1, column2, ... FROM table1 JOIN table2 ON table1.column =�
 
 **Filtering Data:**
 
-```
+```sql
 SELECT column1, column2, ... FROM table_name WHERE column operator value;
 ```
 
@@ -307,7 +307,7 @@ These SQL clauses are powerful tools for manipulating and retrieving data from a
 **ORDER BY:**
 The **`ORDER BY`** clause is used in a SQL query to sort the result set based on one or more columns. It arranges the rows in ascending (default) or descending order. Here's the syntax:
 
-```
+```sql
 SELECT column1, column2, ... FROM table_name ORDER BY column1 [ASC | DESC], column2 [ASC | DESC], ...;
 
 ```
@@ -319,8 +319,7 @@ SELECT column1, column2, ... FROM table_name ORDER BY column1 [ASC | DES
 **WHERE:**
 The **`WHERE`** clause is used to filter rows in a SQL query based on specified conditions. It allows you to retrieve only the rows that meet specific criteria. Here's the syntax:
 
-```
-sqlCopy code
+```sql
 SELECT column1, column2, ... FROM table_name WHERE condition;
 
 ```
@@ -332,8 +331,7 @@ SELECT column1, column2, ... FROM table_name WHERE condition;
 **SELECT DISTINCT:**
 The **`SELECT DISTINCT`** clause is used in a SQL query to retrieve unique values from a specific column or combination of columns in a result set. It eliminates duplicate values and returns only distinct values. Here's the syntax:
 
-```
-sqlCopy code
+```sql
 SELECT DISTINCT column1, column2, ... FROM table_name;
 
 ```
