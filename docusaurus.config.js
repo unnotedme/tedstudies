@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ted Studies',
-  tagline: 'Docs I wrote throughout my study journey.',
+  title: 'Ted Sá',
+  tagline: 'I am a software engineer, passionate about DEI and data.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

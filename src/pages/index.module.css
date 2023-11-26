@@ -16,6 +16,25 @@
   }
 }
 
+.heroHeader {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.heroHeader img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 996px) {
+  .heroHeader {
+    padding: 2rem;
+  }
+}
+
 .buttons {
   display: flex;
   align-items: center;
