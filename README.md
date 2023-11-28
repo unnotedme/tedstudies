@@ -1,6 +1,6 @@
 # Ted Studies
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website covers a variety of topics that I have studied over the years. It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ### Installation
 
