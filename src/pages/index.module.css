@@ -18,20 +18,44 @@
 
 .heroHeader {
   font-size: 3rem;
-  font-weight: 700;
   margin-bottom: 1rem;
   display: flex;
+  justify-content: center;
 }
 
 .heroHeader img {
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
+  margin-right: 2em;
+}
+
+.heroHeader .containerHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 996px) {
   .heroHeader {
     padding: 2rem;
+  }
+  .heroHeader .containerHeader{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .heroHeader img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heroHeader img {
+    width: 15rem;
+    height: 15rem;
   }
 }
 

@@ -11,17 +11,23 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero", styles.heroHeader)}>
-      <div className="container">
+      <div className={clsx(styles.containerHeader)}>
         <div className="profilepic">
           <img
             src="https://images.unsplash.com/photo-1649400513967-61768dc494ce?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Multilingual"
+            alt="Ted's profile picture"
           />
         </div>
-        <Heading as="h1" className="hero__title">
-          <h1>👋 Hello World! I'm Ted!</h1>
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className="profiletext">
+          <Heading as="h1" className="hero__title">
+            <h1>👋 Hello World! I'm Ted!</h1>
+          </Heading>
+          <p className="hero__subtitle">
+            I am a developer from 🇧🇷 Belo Horizonte, Brazil. <br />{" "}
+            Currently based in 🇨🇦 Halifax, Canada. <br /> I am passionate
+            about data, 🏳️‍🌈 DEI and education.
+          </p>
+        </div>
       </div>
     </header>
   );
@@ -42,7 +48,7 @@ function HomepageDocs() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/category/data"
           >
             Checkout my notes! 📚
           </Link>
