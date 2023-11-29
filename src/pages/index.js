@@ -48,7 +48,7 @@ function HomepageDocs() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/category/data"
+            to="/docs/category/database-engineering"
           >
             Checkout my notes! 📚
           </Link>
