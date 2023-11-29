@@ -8,6 +8,8 @@ hide_table_of_contents: false
 
 #### 📌 The Readme is a guide that contemplates the main purpose of your project, technologies used, some how-to's (such as how to install and how to use it), the license, and how others can contribute.
 
+<!-- truncate -->
+
 Readme files have the  `.md`  extensions, so it means they need to be using the Markdown standards. It's easy to learn and you can use  [this editor](https://stackedit.io/)  to write your file more easily.
 
 Your file needs to be easily readable and organized in a way that you, and others, can understand and use as a resource while developing, testing and using your project. Use titles and sub-titles, divide it into sections and make it structural. Write short paragraphs, use bullet lists and highlight important content using  **bold**.
